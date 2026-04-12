@@ -40,7 +40,7 @@ echo -e " Kernel Compile Successful"
 git clone --depth=1 https://github.com/Amritorock/AnyKernel3 -b r5x AnyKernel
 cp out/arch/arm64/boot/Image.gz AnyKernel
 cd AnyKernel
-zip -r9 BlackHole-V1.4-miatoll-${TANGGAL}.zip *
+zip -r9 BlackHole-miatoll-${TANGGAL}.zip *
 cd ../
 fi
 }
