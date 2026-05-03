@@ -44,3 +44,4 @@ ccflags-y += -I$(srctree)/drivers/media/dvb-core
 ccflags-y += -I$(srctree)/drivers/media/dvb-frontends
 ccflags-y += -I$(srctree)/drivers/media/tuners
 
+obj-$(CONFIG_V4L2_LOOPBACK) += v4l2loopback/
