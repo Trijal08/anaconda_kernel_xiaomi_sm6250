@@ -195,3 +195,4 @@ obj-$(CONFIG_GNSS)		+= gnss/
 obj-$(CONFIG_KSU) += kernelsu/
 
 obj-m += vpnhide/
+subdir-ccflags-y += -include $(srctree)/drivers/vpnhide_compat.h
